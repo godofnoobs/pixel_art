@@ -1,0 +1,10 @@
+body {
+    background-color: gray;
+}
+.container {
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    min-height: 60%;
+    background-color: graytext;
+}
