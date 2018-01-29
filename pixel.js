@@ -85,3 +85,5 @@ var divColors = document.getElementsByClassName('toolbar')[0];
 divColors.addEventListener('click', updateColor);
 var clear = document.getElementById('clear');
 clear.addEventListener('click', clearCanvas);
+document.addEventListener('mouseup', function() {mouseDownFlag = 0;});
+
